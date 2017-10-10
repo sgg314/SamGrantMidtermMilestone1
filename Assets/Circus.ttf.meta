@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 267ef5b89d058d748aad4557e03d26d8
+timeCreated: 1507235233
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Circus
+  fontNames:
+  - Circus
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

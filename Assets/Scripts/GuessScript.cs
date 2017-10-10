@@ -18,9 +18,6 @@ public class GuessScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
-		Debug.Log (Vector3.Distance (player.position, sam.position));
-
 		if (Vector3.Distance (player.position, sam.position) < 5f ) { 
 			hintText.text = "This is a freak. Do you think this freak is Sam? \n(Press Space to select this freak)"; 
 		} else if ( player.position.z < -1f ) { 

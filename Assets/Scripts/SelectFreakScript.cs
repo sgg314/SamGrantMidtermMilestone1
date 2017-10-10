@@ -18,13 +18,13 @@ public class SelectFreakScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Vector3.Distance (player.position, sam.position) < 10f) { 
+		if (Vector3.Distance (player.position, sam.position) < 5f) { 
 			if (Input.GetKey (KeyCode.Space)) {
 				winText.text = "You Won! You guessed right!";
 			} 
 		}
 
-		if (Vector3.Distance (player.position, ted.position) < 10f) { 
+		if (Vector3.Distance (player.position, ted.position) < 5f) { 
 			if (Input.GetKey (KeyCode.Space)) {
 				winText.text = "You Lose! You guessed incorrectly!";
 			} 
